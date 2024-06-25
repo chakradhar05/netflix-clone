@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  font-family: Lato , system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  
+}
+body::-webkit-scrollbar {
+  display: none;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
